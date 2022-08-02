@@ -20,6 +20,6 @@
       "enabled": true,
       "minVulnerabilitySeverity": "LOW"
     },
-    "extends": ["github>mend/merge-confidence:beta"]
+    "extends": ["github>whitesource/merge-confidence:beta"]
   }
 }
