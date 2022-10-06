@@ -12,7 +12,7 @@ jobs:
       WS_USERKEY: ${{secrets.USERKEY}}
       WS_WSS_URL: https://saas-eu.mend.io/agent
       WS_PRODUCTNAME: GH_${{github.event.repository.name}}
-      WS_PROJECTNAME: ${{github.event.repository.name}}_${{github.ref_name}}_Prioritize
+      WS_PROJECTNAME: GH_${{github.event.repository.name}}_${{github.ref_name}}_Prioritize
 
     runs-on: ubuntu-latest
 
